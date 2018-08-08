@@ -3,6 +3,14 @@
     "description": "Redis queue managment for laravel.",
     "keywords": ["laravel", "queue", "redis"],
     "license": "MIT",
+    "homepage": "https://github.com/kevindees/laravel-redis-queue",
+    "authors": [
+        {
+            "name": "Kevin Dees",
+            "homepage": "https://kevdees.com",
+            "role": "Creator"
+        }
+    ],
     "require": {
         "php": "^7.0",
         "predis/predis": "^1.1"
@@ -18,5 +26,6 @@
                 "QueueRedis\\QueueRedisServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
