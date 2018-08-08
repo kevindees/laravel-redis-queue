@@ -1,0 +1,22 @@
+{
+    "name": "kevindees/laravel-redis-queue",
+    "description": "Redis queue managment for laravel.",
+    "keywords": ["laravel", "queue", "redis"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "QueueRedis\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "QueueRedis\\QueueRedisServiceProvider"
+            ]
+        }
+    }
+}
