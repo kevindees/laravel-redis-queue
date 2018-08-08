@@ -4,6 +4,14 @@ A little command line tool for clearing Laravel Redis queues. This package is fo
 
 *If you are using Horizon, it may be best to have a separate Redis connection for your jobs and another for other parts of your application.*
 
+## Install
+
+You can install this Laravel package using [Composer](https://getcomposer.org/) by running the following command.
+
+```shell
+composer require kevindees/laravel-redis-queue
+```
+
 ## Basic Clear
 
 This command clears the Redis queue defined in your `config/queue.php` file. The configuration is normally set to `default`.
