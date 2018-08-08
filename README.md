@@ -23,3 +23,9 @@ To clear a defined queue specify it in the artisan command as an augument.
 ```shell
 php artisan queue:redis emails -C
 ```
+
+Outputs,
+
+```
+Clearing Redis queues:emails
+```

@@ -1,5 +1,6 @@
 
 <?php
+
 namespace QueueRedis;
 
 use Illuminate\Console\Command;
