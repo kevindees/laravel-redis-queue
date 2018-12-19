@@ -25,6 +25,7 @@ class QueueRedisServiceProvider extends ServiceProvider {
         if ($this->app->runningInConsole()) {
             $this->commands([
                 QueueRedisCommand::class,
+                HorizonDataCommand::class,
             ]);
         }
     }
