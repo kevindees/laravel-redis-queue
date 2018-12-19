@@ -26,7 +26,7 @@ Outputs,
 Clearing Redis queues:default
 ```
 
-## Defined Queue Clear
+### Defined Queue Clear
 
 To clear a specific queue like `emails` pass it as an argument.
 
@@ -48,12 +48,6 @@ To clear all failed jobs from redis in horizon.
 
 ```shell
 php artisan horizon:data failed_jobs -C
-```
-
-To clear all jobs from redis in horizon.
-
-```shell
-php artisan horizon:data jobs -C
 ```
 
 To clear all jobs from redis in horizon.
