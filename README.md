@@ -56,7 +56,7 @@ To clear all jobs from redis in horizon.
 php artisan horizon:data recent_jobs -C
 ```
 
-To clear an tag or something else from redis in horizon.
+To clear a tag or something else from redis in horizon.
 
 ```shell
 php artisan horizon:data App\\Import:66 -C
