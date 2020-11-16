@@ -44,9 +44,8 @@ class QueueRedisCommand extends Command
     public function handle()
     {
         $this->queue = $this->argument('queue') ?: config('queue.connections.redis.queue');
-        $this->clear = $this->option('clear');
 
-        if($this->clear) {
+        if ($this->option('clear')) {
             $this->clear();
         }
     }
