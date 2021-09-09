@@ -1,3 +1,5 @@
+<a href="https://packagist.org/packages/kevindees/laravel-redis-queue"><img src="https://img.shields.io/packagist/dt/kevindees/laravel-redis-queue" alt="Total Downloads"></a>
+
 # Laravel Redis Queue
 
 A little command line tool for clearing Laravel Redis queues. This package is for Laravel 5 and removes all jobs from a queue using the Redis driver. Because [Laravel Horizon](https://laravel.com/docs/5.6/horizon) uses Redis for its queues, this tool can be used to clear your Horizon jobs.
